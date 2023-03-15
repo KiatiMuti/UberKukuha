@@ -8,31 +8,42 @@ header
 nav
     height: 50px
     background: #212121
+    display: flex
+    justify-content: center
+    
 
-    .menu
-        padding: 13px 70px
-        margin: 0
-        list-style-type: none
+    .container
+        position: fixed
+        z-index: 999
+        background: #212121
+        min-width: 100%
+        
+    
+        .menu
+            padding: 13px 70px
+            margin: 0
+            list-style-type: none
 
-        display: flex
-        justify-content: space-between
-        flex-wrap: nowrap
+            display: flex
+            justify-content: space-between
+            flex-wrap: nowrap
+            
 
 
-        .menu_link
-            font-weight: 300
-            font-size: 15px
-            color: #FFFFFF
-            text-decoration: none
-            cursor: pointer
+            .menu_link
+                font-weight: 300
+                font-size: 15px
+                color: #FFFFFF
+                text-decoration: none
+                cursor: pointer
 
-        .menu_item
-            border-right: 2px dotted
-            color: #FFFFFF
-            padding-right: 28px
+            .menu_item
+                border-right: 2px dotted
+                color: #FFFFFF
+                padding-right: 28px
 
-        .end_item
-            border-right: none
+            .end_item
+                border-right: none
 
 .subheader
     height: 84px
