@@ -158,47 +158,62 @@ nav
         color: #FFFFFF
         text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
 
+.title
+    font-weight: 700
+    font-size: 38px
+    text-align: center
+    text-transform: uppercase
+
+    color: #222222
+    margin-bottom: 16px
+
+.label
+    display: block
+    margin: 0 auto 33px auto
+    
+    font-weight: 400
+    font-size: 11px
+    text-align: center
+    text-transform: uppercase
+    padding-top: 5px
+
+    color: #FFFFFF
+
+    background: black
+    width: 113px
+    height: 24px
+
+.subtitle
+    font-weight: 400
+    font-size: 17px
+    line-height: 21px
+    text-align: center
+
+    color: #222222 
+
+    margin-top: 19px   
+
 .reasons
     min-height: 966px
+    padding-top: 137px
 
-    .advan
-        display: block
-        margin: 137px auto 33px auto
-        
-        font-weight: 400
-        font-size: 11px
-        text-align: center
-        text-transform: uppercase
-        padding-top: 5px
-
-        color: #FFFFFF
-
-        background: black
-        width: 113px
-        height: 24px
-
-    .reasons_header
-        font-weight: 700
-        font-size: 38px
-        text-align: center
-        text-transform: uppercase
-
-        color: #222222
-        margin-bottom: 16px
-
-    .circle_item
-        width: 116px
-        height: 116px
-
-        background: #1EACC7
-        border-radius: 50%
-
+    .col-md-2
         display: flex
-        justify-content: center
-        align-items: center
-        
-        .reasons_img
-            width: auto
+        justify-content: right
+
+        .circle_item
+            width: 116px
+            height: 116px
+
+            background: #1EACC7
+            border-radius: 50%
+
+            display: flex
+            justify-content: center
+            align-items: center
+    
+            .reasons_img
+                width: auto
          
 
     .row
@@ -217,3 +232,65 @@ nav
             line-height: 21px
 
             color: #1EACC7
+
+
+.mobile
+    min-height: 864px
+    padding: 48px 0 79px 0
+    background: url('../img/4MobileApp/BG.png') center center/cover no-repeat
+
+    .row_1
+        margin-top: 30px
+    
+    .row_2
+        margin-top: 19px
+
+
+    &_item
+        width: 320px
+        height: 310px
+        padding-top: 92px
+        position: relative
+        &_1
+            background: url('../img/4MobileApp/Img1.png') center center/cover no-repeat
+        &_2
+            background: url('../img/4MobileApp/Img2.png') center center/cover no-repeat
+        &_3
+            background: url('../img/4MobileApp/Img3.png') center center/cover no-repeat
+        &_4
+            background: url('../img/4MobileApp/Img4.png') center center/cover no-repeat
+        &_5
+            background: url('../img/4MobileApp/Img5.png') center center/cover no-repeat
+        &_6
+            background: url('../img/4MobileApp/Img6.png') center center/cover no-repeat
+
+        &_subtitle
+            font-weight: 400
+            font-size: 24px
+            line-height: 31px
+            text-align: center
+            text-transform: uppercase
+
+            color: #FFFFFF
+
+        &_plus
+            display: flex
+            justify-content: center
+            align-items: center
+            position: absolute
+            bottom: 35px
+            left: 50%
+            transform: translateX(-50%)
+            
+            width: 29px
+            height: 29px
+            background: #000000
+
+            margin: 0 auto
+            border-radius: 100%
+
+            cursor: pointer
+
+            img
+                width: auto
+
