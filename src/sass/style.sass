@@ -1,3 +1,6 @@
+$blue: #1EACC7
+$red: #FF5656
+
 
 *
     font-family: 'Roboto', sans-serif
@@ -92,7 +95,7 @@ nav
         width: 172px
         height: 46px
 
-        background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+        background: linear-gradient(0deg, $blue 0%, #4CE2FF 100%)
         box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12)
         border-radius: 4px
 
@@ -146,7 +149,7 @@ nav
         height: 63px
         margin: 118px auto 0 auto
 
-        background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+        background: linear-gradient(0deg, $blue 0%, #4CE2FF 100%)
         box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12)
         border-radius: 4px
 
@@ -205,7 +208,7 @@ nav
             width: 116px
             height: 116px
 
-            background: #1EACC7
+            background: $blue
             border-radius: 50%
 
             display: flex
@@ -231,7 +234,7 @@ nav
             font-size: 17px
             line-height: 21px
 
-            color: #1EACC7
+            color: $blue
 
 
 .mobile
@@ -294,3 +297,30 @@ nav
             img
                 width: auto
 
+.car
+    min-height: 898px
+    padding-top: 56px
+    background: url('../img/5Car/BG.png') center center/cover no-repeat
+
+    .label_white
+        background-color: #FFFFFF
+        color: #070716
+
+    .title_white
+        color: #FFFFFF
+
+    .subtitle_white
+        color: #FFFFFF
+
+    .car_img
+        display: block
+        margin: 0 auto
+        margin-top: 54px
+
+    .car_descr
+        margin-top: 1px
+        font-weight: 300
+        font-size: 17px
+        text-align: center
+
+        color: #222222

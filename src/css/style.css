@@ -261,4 +261,26 @@ nav {
       .mobile_item_plus img {
         width: auto; }
 
+.car {
+  min-height: 898px;
+  padding-top: 56px;
+  background: url("../img/5Car/BG.png") center center/cover no-repeat; }
+  .car .label_white {
+    background-color: #FFFFFF;
+    color: #070716; }
+  .car .title_white {
+    color: #FFFFFF; }
+  .car .subtitle_white {
+    color: #FFFFFF; }
+  .car .car_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 54px; }
+  .car .car_descr {
+    margin-top: 1px;
+    font-weight: 300;
+    font-size: 17px;
+    text-align: center;
+    color: #222222; }
+
 /*# sourceMappingURL=style.css.map */
