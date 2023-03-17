@@ -1,6 +1,11 @@
 $blue: #1EACC7
 $red: #FF5656
 
+=hvr_btn
+    &:hover
+        background-image: none
+        background-color: $blue
+
 
 *
     font-family: 'Roboto', sans-serif
@@ -107,6 +112,8 @@ nav
         color: #FFFFFF
 
         text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
+
+        +hvr_btn
         
 .promo
     min-height: 800px
@@ -160,6 +167,8 @@ nav
         text-transform: uppercase
         color: #FFFFFF
         text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
+        
+        +hvr_btn
 
 .title
     font-weight: 700
@@ -294,8 +303,27 @@ nav
 
             cursor: pointer
 
-            img
-                width: auto
+            &:before
+                content: ''
+                display: block
+                width: 14px
+                height: 2px
+                background-color: $blue
+
+            &:after
+                content: ''
+                display: block
+                width: 2px
+                height: 14px
+                background-color: $blue
+                position: absolute
+                left: 50%
+                transform: translateX(-50%)
+            
+            &:hover
+                &:before, &:after
+                    background-color: $red
+                    transition: 0.3 all
 
 .car
     min-height: 898px
@@ -324,3 +352,38 @@ nav
         text-align: center
 
         color: #222222
+
+.require
+    padding: 68px 0 84px 0
+
+    &_list
+        font-weight: 300
+        font-size: 17px
+        line-height: 24px
+        text-indent: 50px
+        list-style-type: none
+
+        color: #222222
+
+        li
+            &::before
+                content: ''
+                display: block
+                width: 21px
+                height: 20px
+                background: url('../icon/favicon.ico')
+
+    &_title
+        font-weight: 400
+        font-size: 22px
+
+        color: #1CA8C3
+
+    
+    &_descr
+        font-weight: 300
+        font-size: 17px
+        line-height: 24px
+
+        color: #1CA8C3
+
