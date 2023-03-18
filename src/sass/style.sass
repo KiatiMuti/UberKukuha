@@ -366,12 +366,18 @@ nav
         color: #222222
 
         li
+            position: relative
+            margin-top: 15px
             &::before
                 content: ''
                 display: block
+                position: absolute
+                left: 20px
+                top: 3px
+                
                 width: 21px
                 height: 20px
-                background: url('../icon/favicon.ico')
+                background: url('../icon/favicon.ico') center center/cover no-repeat
 
     &_title
         font-weight: 400
@@ -379,6 +385,8 @@ nav
 
         color: #1CA8C3
 
+    &_title_red
+        color: $red
     
     &_descr
         font-weight: 300
@@ -387,3 +395,8 @@ nav
 
         color: #1CA8C3
 
+    .row_1
+        margin-top: 33px
+
+    .row_2
+        margin-top: 60px

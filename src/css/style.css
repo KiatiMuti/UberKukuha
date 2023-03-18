@@ -316,20 +316,32 @@ nav {
     text-indent: 50px;
     list-style-type: none;
     color: #222222; }
-    .require_list li::before {
-      content: "";
-      display: block;
-      width: 21px;
-      height: 20px;
-      background: url("../icon/favicon.ico"); }
+    .require_list li {
+      position: relative;
+      margin-top: 15px; }
+      .require_list li::before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 20px;
+        top: 3px;
+        width: 21px;
+        height: 20px;
+        background: url("../icon/favicon.ico") center center/cover no-repeat; }
   .require_title {
     font-weight: 400;
     font-size: 22px;
     color: #1CA8C3; }
+  .require_title_red {
+    color: #FF5656; }
   .require_descr {
     font-weight: 300;
     font-size: 17px;
     line-height: 24px;
     color: #1CA8C3; }
+  .require .row_1 {
+    margin-top: 33px; }
+  .require .row_2 {
+    margin-top: 60px; }
 
 /*# sourceMappingURL=style.css.map */
