@@ -513,13 +513,72 @@ nav {
   .footer .wrapper .container .five_links .second_link {
     margin: 13px 10px 0 10px; } }
 @media(max-width: 768px) {
-  nav .container .menu .menu_link {
-    font-size: 8px; }
+  nav .container .menu {
+    padding-left: 5px;
+    padding-right: 5px; }
+    nav .container .menu .menu_link {
+      font-size: 10px; }
 
   .subheader .container .subheader_link .subheader_logo {
     max-width: 100%; }
   .subheader .subheader_official {
     font-size: 11px;
-    margin-top: 5px; } }
+    margin-top: 5px; }
+
+  .promo {
+    padding: 100px 0 80px; }
+    .promo .promo_btn {
+      margin-top: 85px; }
+
+  .reasons {
+    padding-bottom: 30px;
+    padding-top: 45px; }
+    .reasons .reasons_descr {
+      margin-bottom: 30px; }
+    .reasons .row {
+      margin-bottom: 0; }
+
+  .mobile {
+    min-height: 640px;
+    padding: 48px 0 0 0; }
+    .mobile .mobile_item {
+      width: 170px;
+      height: 170px;
+      padding-top: 30px; }
+      .mobile .mobile_item .mobile_item_subtitle {
+        font-size: 13px; }
+      .mobile .mobile_item .mobile_item_plus {
+        bottom: 21px; }
+
+  .title {
+    font-size: 27px; }
+
+  .label {
+    margin-bottom: 14px; }
+
+  .car {
+    min-height: 660px; }
+
+  .require {
+    padding: 40px 0 30px 0; }
+    .require .require_list li {
+      margin-top: 6px; }
+    .require .row_1 {
+      margin-top: 15px; }
+    .require .row_2 {
+      margin-top: 15px; }
+
+  .footer .wrapper .social {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .footer .wrapper .social .social_item {
+      margin-top: 5px; }
+  .footer .wrapper .container .three_links .main_link {
+    margin: 10px 5px 0 5px; }
+  .footer .wrapper .container .five_links .second_link {
+    margin: 13px 5px 0 5px;
+    font-size: 9px; }
+  .footer .wrapper .container .line {
+    width: 210px; } }
 
 /*# sourceMappingURL=style.css.map */
